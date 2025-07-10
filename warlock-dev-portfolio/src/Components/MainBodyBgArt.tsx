@@ -4,7 +4,7 @@ import "../index.css";
 
 export default function MainBodyBgArt() {
   return (
-    <main className="relative bg-black text-white min-h-screen flex items-center justify-center p-4 overflow-hidden">
+    <main className="w-full max-w-full px-4 sm:px-6 lg:px-8 relative bg-black text-white min-h-screen flex items-center justify-center p-4 overflow-hidden">
       {/* Background Animated Image */}
       <motion.img
         src={cyberpunksamurai}
@@ -34,7 +34,7 @@ export default function MainBodyBgArt() {
 
       {/* Foreground H1 */}
       <h1
-        className="absolute z-10 text-4xl sm:text-5xl md:text-6xl font-bold font-['Varino']"
+        className="w-full max-w-full absolute z-10 text-4xl sm:text-5xl md:text-6xl font-bold font-['Varino']"
         style={{
           color: "white",
           textShadow:
