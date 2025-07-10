@@ -4,7 +4,7 @@ import "../index.css";
 
 export default function MainBodyBgArt() {
   return (
-    <main className="w-full max-w-full px-4 sm:px-6 lg:px-8 relative bg-black text-white min-h-screen flex items-center justify-center p-4 overflow-hidden">
+    <main className="w-full max-w-full px-2 sm:px-4 md:px-6 lg:px-8 relative bg-black text-white min-h-screen flex items-center justify-center p-2 sm:p-4 overflow-hidden">
       {/* Background Animated Image */}
       <motion.img
         src={cyberpunksamurai}
@@ -29,12 +29,12 @@ export default function MainBodyBgArt() {
             ease: "easeInOut",
           },
         }}
-        className="absolute w-4/5 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg clipped-image z-0 opacity-50"
+        className="absolute w-auto h-auto max-w-[70%] sm:max-w-[60%] md:max-w-[50%] lg:max-w-[40%] max-h-[60vh] clipped-image z-0 opacity-50"
       />
 
       {/* Foreground H1 */}
       <h1
-        className="w-full max-w-full absolute z-10 text-4xl sm:text-5xl md:text-6xl font-bold font-['Varino']"
+        className="w-full absolute z-10 text-center text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-['Varino'] px-2 sm:px-4"
         style={{
           color: "white",
           textShadow:
